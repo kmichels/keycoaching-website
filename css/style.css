@@ -250,10 +250,18 @@ li::before {
   box-shadow: var(--shadow-lg);
 }
 
-/* Card layout */
+/* Card layout - 2x2 grid for 4 cards */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 3-column variant for pricing cards */
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -660,7 +668,8 @@ footer p {
     gap: 2rem;
   }
 
-  .card-grid {
+  .card-grid,
+  .card-grid-3 {
     grid-template-columns: 1fr;
   }
 
