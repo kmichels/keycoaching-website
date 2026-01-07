@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews - Key Coaching</title>
     <meta name="description" content="Client testimonials and reviews for Key Coaching tech career services.">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="/" class="logo">Key Coaching</a>
+            <button class="menu-toggle" aria-label="Toggle menu" onclick="document.body.classList.toggle('nav-open')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/services.html">Services</a></li>
-                <li><a href="/reviews.html">Reviews</a></li>
+                <li><a href="/reviews.html" aria-current="page">Reviews</a></li>
                 <li><a href="/faqs.html">FAQs</a></li>
             </ul>
         </nav>
@@ -36,6 +42,7 @@
                             <div class="avatar">ER</div>
                             <div>
                                 <cite>Ethan Richard</cite>
+                                <p class="title">Senior Software Engineer</p>
                             </div>
                         </div>
                     </div>
@@ -46,6 +53,7 @@
                             <div class="avatar">AP</div>
                             <div>
                                 <cite>Andrew Pope</cite>
+                                <p class="title">Engineering Manager (Former Meta)</p>
                             </div>
                         </div>
                     </div>
@@ -56,6 +64,7 @@
                             <div class="avatar">SC</div>
                             <div>
                                 <cite>Stuart Cannon</cite>
+                                <p class="title">Senior Engineer (Former Meta)</p>
                             </div>
                         </div>
                     </div>
@@ -67,13 +76,21 @@
             <div class="section-content">
                 <h2>Ready to transform your career?</h2>
                 <p>Join the many tech professionals who have advanced their careers with Key Coaching.</p>
-                <a href="https://www.coachaccountable.com/offering/Pmb40yrOsGbpqKuxvB0E9d9nzfx3ISi" class="cta-button">Schedule an Initial Consultation</a>
+                <a href="https://www.coachaccountable.com/offering/Pmb40yrOsGbpqKuxvB0E9d9nzfx3ISi" class="cta-button">Book a 30-min Call - $25</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Key Coaching. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/konrad-m-2081701/">LinkedIn</a>
+                <a href="mailto:konrad@keycoaching.co">Email</a>
+                <a href="/faqs.html">FAQs</a>
+            </div>
+            <p class="footer-tagline">Helping senior tech professionals navigate what's next.</p>
+            <p class="copyright">&copy; 2026 Key Coaching. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

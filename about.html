@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Key Coaching</title>
-    <meta name="description" content="Learn about Konrad Michels, founder of Key Coaching, with over 25 years in tech and 12+ years at Facebook/Meta.">
+    <meta name="description" content="Learn about Konrad Michels, founder of Key Coaching, with 30 years in tech and 12+ years at Meta.">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="/" class="logo">Key Coaching</a>
+            <button class="menu-toggle" aria-label="Toggle menu" onclick="document.body.classList.toggle('nav-open')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/about.html" aria-current="page">About</a></li>
                 <li><a href="/services.html">Services</a></li>
                 <li><a href="/reviews.html">Reviews</a></li>
                 <li><a href="/faqs.html">FAQs</a></li>
@@ -36,8 +42,9 @@
         <section class="alt-bg">
             <div class="section-content">
                 <h2>My Journey</h2>
-                <p>With over 25 years in Tech, and over 12 years of experience as a tech professional at a FAANG company, I've witnessed firsthand the dynamic and often unpredictable nature of the tech industry. I've been through the highs of rapid growth and innovation, and I've navigated the challenges of restructuring and market shifts.</p>
-                <p>This journey has given me a unique perspective on what it takes to build a resilient and fulfilling tech career. It's this experience that fuels my passion for coaching and drives me to help others unlock their full potential in the ever-evolving tech landscape.</p>
+                <p>With 30 years in Tech, and over 12 years of experience at Meta (Facebook), I've witnessed firsthand the dynamic and often unpredictable nature of the tech industry. I was the first technical hire outside the US at Facebook, starting in London in 2008 and building out the European SRE presence from scratch.</p>
+                <p>I've held multiple roles - Lead SRE, Manager, Production Engineering, TPM, and Product Manager. I've led major initiatives like Project Sandstorm (the first-ever planned datacenter shutdown without user impact), managed cache infrastructure serving tens of billions of requests per second, and built enterprise video conferencing systems.</p>
+                <p>This journey has given me a unique perspective on what it takes to build a resilient and fulfilling tech career. It's this experience that fuels my passion for coaching and drives me to help others unlock their full potential.</p>
             </div>
         </section>
 
@@ -111,13 +118,21 @@
             <div class="section-content">
                 <h2>Let's Connect</h2>
                 <p>Ready to take the next step in your tech career? Whether you're looking to advance, transition, or simply gain clarity on your professional path, I'm here to support you.</p>
-                <a href="https://www.coachaccountable.com/offering/Pmb40yrOsGbpqKuxvB0E9d9nzfx3ISi" class="cta-button">Schedule an Initial Consultation</a>
+                <a href="https://www.coachaccountable.com/offering/Pmb40yrOsGbpqKuxvB0E9d9nzfx3ISi" class="cta-button">Book a 30-min Call - $25</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Key Coaching. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/konrad-m-2081701/">LinkedIn</a>
+                <a href="mailto:konrad@keycoaching.co">Email</a>
+                <a href="/faqs.html">FAQs</a>
+            </div>
+            <p class="footer-tagline">Helping senior tech professionals navigate what's next.</p>
+            <p class="copyright">&copy; 2026 Key Coaching. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
