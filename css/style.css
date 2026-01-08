@@ -336,20 +336,21 @@ li::before {
   box-shadow: var(--shadow-lg);
 }
 
-.hero-alt-cta {
-  margin-top: 1rem;
-  font-size: 0.9375rem;
-  opacity: 0.85;
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.hero-alt-cta a {
+.hero .cta-secondary {
+  background: transparent;
   color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
-.hero-alt-cta a:hover {
-  opacity: 1;
+.hero .cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
 }
 
 /* Card layout - 2x2 grid for 4 cards */
@@ -395,14 +396,19 @@ li::before {
 .card-link {
   display: inline-block;
   margin-top: 1rem;
+  padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--accent);
   text-decoration: none;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  transition: all var(--transition);
 }
 
 .card-link:hover {
-  text-decoration: underline;
+  background: var(--accent);
+  color: #ffffff;
 }
 
 /* Feature list with icons */
@@ -972,6 +978,11 @@ footer .copyright {
 
   .hero-credentials {
     font-size: 0.8125rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
   }
 
   .cta-button {

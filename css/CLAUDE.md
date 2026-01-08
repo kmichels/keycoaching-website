@@ -7,6 +7,7 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
+| #380 | 12:41 PM | 🟣 | Comprehensive website redesign with 10 major improvements deployed | ~618 |
 | #371 | 12:36 PM | 🟣 | Enhanced mobile responsiveness with hamburger menu and hero layout improvements | ~410 |
 | #368 | 12:35 PM | 🟣 | Added interactive FAQ accordion and enhanced footer components to CSS | ~470 |
 | #364 | " | 🟣 | Added mobile hamburger menu and current page indicator to navigation | ~318 |
