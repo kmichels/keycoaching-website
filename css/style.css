@@ -336,6 +336,22 @@ li::before {
   box-shadow: var(--shadow-lg);
 }
 
+.hero-alt-cta {
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  opacity: 0.85;
+}
+
+.hero-alt-cta a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hero-alt-cta a:hover {
+  opacity: 1;
+}
+
 /* Card layout - 2x2 grid for 4 cards */
 .card-grid {
   display: grid;
@@ -374,6 +390,19 @@ li::before {
   color: var(--text-light);
   font-size: 0.9375rem;
   margin-bottom: 0;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
 }
 
 /* Feature list with icons */
